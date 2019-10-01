@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "public": "src/app/out",
+    "predeploy": "cd src/app;npm run-script export",
+    "rewrites": [
+      {
+        "source": "**/api/**",
+        "function": "next"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+    // Returns a temporary redirect for all requests to files or directories in the "firebase" directory
+      "source": "/admin/**",
+      "destination": "https://www.pushtable.com/dashboard",
+      "type": 302
+    },
+    {
+    // Returns a temporary redirect for all requests to files or directories in the "firebase" directory
+      "source": "/admin",
+      "destination": "https://www.pushtable.com/dashboard",
+      "type": 302
+    } ]
+  },
+  "functions": {
+    "source": "src/functions",
+    "predeploy": "npm run-script build-all"
+  }
+}

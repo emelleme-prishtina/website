@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nexport default function WCalculator() {\n  return __jsx(\"div\", null, \"W4Calculator!\");\n}","map":null,"metadata":{},"sourceType":"module"}

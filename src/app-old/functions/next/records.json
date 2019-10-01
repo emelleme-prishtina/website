@@ -1,0 +1,63 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/_app.js": 2,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/_error.js": 3,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/about.js": 4,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/company/contactus.js": 5,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/company/history.js": 6,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/company/locations.js": 7,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/company/team.js": 8,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/resources/estimate-calculator.js": 9,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/resources/file-taxes-online.js": 10,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/resources/tax-school.js": 11,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/bottom-pages/resources/w4-calculator.js": 12,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/index.js": 13,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/layout/footer.js": 14,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/layout/navigation.js": 15,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/legal/privacy-policy.js": 16,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/legal/terms-of-use.js": 17,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/resources/file-online.js": 18,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/services/book-keeping.js": 19,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/services/business-consulting.js": 20,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/services/estimate-calculator.js": 21,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/services/taxes.js": 22,
+      "static/YPzQKlJPZdDPabVIEuENC/pages/services/w4-calculator.js": 23,
+      "static/runtime/main.js": 24
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      22,
+      23,
+      24,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
