@@ -69,12 +69,8 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-<<<<<<< HEAD
-        <div className={classes.container}> 
-=======
         <div className={classes.container}>
            <WhoWeAre />
->>>>>>> 157aa6a844509f0eb1527d9659a42a34b6c7e716
           <ProductSection />
           <TeamSection />
           <WorkSection />

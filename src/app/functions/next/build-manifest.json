@@ -4,13 +4,6 @@
     "static/development/dll/dll_397dc449097af0b4e992.js.map"
   ],
   "pages": {
-<<<<<<< HEAD
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-=======
->>>>>>> 157aa6a844509f0eb1527d9659a42a34b6c7e716
     "/_app": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
@@ -18,14 +11,6 @@
       "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-<<<<<<< HEAD
-    "/index": [
-=======
-    "/components": [
->>>>>>> 157aa6a844509f0eb1527d9659a42a34b6c7e716
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
