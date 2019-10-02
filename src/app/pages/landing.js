@@ -18,14 +18,17 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 import WhoWeAre from "pages-sections/LandingPage-Sections/WhoWeAre.js";
 
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
+
+
 
 export default function LandingPage(props) {
   const classes = useStyles();
@@ -48,7 +51,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Your story.</h1>
               <h4>
                We are an enthusiastic team of software developers, who are excited to work on different sections of nowadays technology like:
                 web-developemnet, AI, Machine Learning and also a very special part of our company like electric bikes.
@@ -69,13 +72,12 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-<<<<<<< HEAD
+
         <div className={classes.container}> 
-=======
-        <div className={classes.container}>
+
+   
            <WhoWeAre />
->>>>>>> 157aa6a844509f0eb1527d9659a42a34b6c7e716
-          <ProductSection />
+          
           <TeamSection />
           <WorkSection />
         </div>
