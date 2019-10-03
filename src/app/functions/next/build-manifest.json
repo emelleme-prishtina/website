@@ -14,13 +14,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-<<<<<<< HEAD
-=======
-    "/components": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
->>>>>>> 4379f61bb3f1b58f70d4167470d7d3ea1022b820
     "/landing": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

@@ -3,8 +3,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import Computer from "@material-ui/icons/Computer";
+import Build from "@material-ui/icons/Build";
 import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -23,8 +23,8 @@ export default function WhoWeAre() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Who we are</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
+            This is the paragraph where you can write more details about who you
+            are. Keep you user engaged by providing meaningful information.
             Remember that by this time, the user is curious, otherwise he wouldn
             {"'"}t scroll to get here. Add a button if you want the user to see
             more.
@@ -38,7 +38,7 @@ export default function WhoWeAre() {
               title="Software Development"
               description="
 Entrust full-cycle implementation of your software product to our experienced developers."
-              icon={Chat}
+              icon={Computer}
               iconColor="info"
               vertical
             />
@@ -46,17 +46,17 @@ Entrust full-cycle implementation of your software product to our experienced de
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Machine Learning"
-              description="We do machine Learning"
-              icon={VerifiedUser}
+              description="We do machine Learning, here will be more content about machine learning.."
+              icon={Fingerprint}
               iconColor="success"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Build Bikes"
-              description="We build electic bikes."
-              icon={Fingerprint}
+              title="E-Bikes"
+              description="We build electric bikes. here will be more content about bikes.."
+              icon={Build}
               iconColor="danger"
               vertical
             />
