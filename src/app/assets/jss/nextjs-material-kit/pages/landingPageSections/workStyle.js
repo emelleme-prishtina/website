@@ -22,6 +22,14 @@ const workStyle = {
   textArea: {
     marginRight: "15px",
     marginLeft: "15px"
+  },
+  marginTopZero: {
+    marginTop: "0"
+  },
+  descriptionLeft: {
+    color: "#999",
+    textAlign: "center",
+    marginTop: "20px"
   }
 };
 

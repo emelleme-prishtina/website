@@ -20,15 +20,12 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 // Sections for this page
 
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import ContactUs from "pages-sections/LandingPage-Sections/ContactUs.js";
 import WhoWeAre from "pages-sections/LandingPage-Sections/WhoWeAre.js";
-
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
-
-
 
 export default function LandingPage(props) {
   const classes = useStyles();
@@ -47,14 +44,16 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-    <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Your story.</h1>
               <h4>
-               We are an enthusiastic team of software developers, who are excited to work on different sections of nowadays technology like:
-                web-developemnet, AI, Machine Learning and also a very special part of our company like electric bikes.
+                We are an enthusiastic team of software developers, who are
+                excited to work on different sections of nowadays technology
+                like: web-developemnet, AI, Machine Learning and also a very
+                special part of our company like electric bikes.
               </h4>
               <br />
               <Button
@@ -72,14 +71,11 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classes.container}>
+          <WhoWeAre />
 
-        <div className={classes.container}> 
-
-   
-           <WhoWeAre />
-          
           <TeamSection />
-          <WorkSection />
+          <ContactUs />
         </div>
       </div>
       <Footer />
