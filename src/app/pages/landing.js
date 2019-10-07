@@ -44,12 +44,14 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter responsive image={require("assets/img/bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your story.</h1>
-              <h4>
+            <GridItem xs={12} sm={12} md={8}>
+              <img src={require("assets/img/emelle-logo.png")} width="700" />
+              {/* <h1 className={classes.title}>Your story.</h1> */}
+              <br /> <br />
+              <h4 justify="center">
                 We are an enthusiastic team of software developers, who are
                 excited to work on different sections of nowadays technology
                 like: web-developemnet, AI, Machine Learning and also a very
@@ -62,6 +64,7 @@ export default function LandingPage(props) {
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
                 target="_blank"
                 rel="noopener noreferrer"
+                justify="center"
               >
                 <i className="fas fa-play" />
                 Watch video
