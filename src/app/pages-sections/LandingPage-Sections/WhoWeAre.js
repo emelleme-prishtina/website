@@ -18,7 +18,7 @@ const useStyles = makeStyles(styles);
 export default function WhoWeAre() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} id="whoweare">
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Who we are</h2>

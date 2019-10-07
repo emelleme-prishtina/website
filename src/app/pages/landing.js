@@ -31,7 +31,7 @@ export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
+    <div id="home">
       <Header
         color="transparent"
         routes={dashboardRoutes}

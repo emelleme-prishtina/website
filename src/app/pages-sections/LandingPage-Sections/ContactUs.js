@@ -19,7 +19,7 @@ export default function ContactUs() {
   const classes = useStyles();
 
   return (
-    <div className={classes.section}>
+    <div className={classes.section} id="contactus">
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Get in Touch</h2>
