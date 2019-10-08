@@ -36,7 +36,7 @@ export default function Header(props) {
     setMobileOpen(!mobileOpen);
   };
   const headerColorChange = () => {
-    const { color, changeColorOnScroll } = props;
+    const { color, changeColorOnScroll, logoImg } = props;
     const windowsScrollTop = window.pageYOffset;
     if (windowsScrollTop > changeColorOnScroll.height) {
       document.body
@@ -45,16 +45,33 @@ export default function Header(props) {
       document.body
         .getElementsByTagName("header")[0]
         .classList.add(classes[changeColorOnScroll.color]);
+
+      document.body
+        .getElementsByTagName("img")[0]
+        .classList.add(classes[logoImg]);
     } else {
       document.body
         .getElementsByTagName("header")[0]
         .classList.add(classes[color]);
       document.body
+        .getElementsByTagName("img")[0]
+        .classList.remove(classes[logoImg]);
+
+      document.body
         .getElementsByTagName("header")[0]
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const {
+    color,
+    rightLinks,
+    leftLinks,
+    brand,
+    fixed,
+    absolute,
+    display,
+    logoImg
+  } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -63,7 +80,12 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
+      <img
+        src={require("assets/img/emelle-logo.png")}
+        width="200"
+        className={classes.imazhi}
+        logoImg={logoImg}
+      />
     </Link>
   );
   return (
@@ -133,6 +155,7 @@ Header.propTypes = {
   brand: PropTypes.string,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
+  logoImg: PropTypes.string,
   // this will cause the sidebar to change the color from
   // props.color (see above) to changeColorOnScroll.color
   // when the window.pageYOffset is heigher or equal to

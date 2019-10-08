@@ -110,6 +110,13 @@ const headerStyle = {
     paddingTop: "25px",
     color: "#FFFFFF"
   },
+  imazhi: {
+    display: "none"
+  },
+  logoImg: {
+    display: "block"
+  },
+
   dark: {
     color: "#FFFFFF",
     backgroundColor: "#212121 !important",

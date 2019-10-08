@@ -13,7 +13,8 @@ const landingPageStyle = {
     marginTop: "30px",
     minHeight: "32px",
     color: "#FFFFFF",
-    textDecoration: "none"
+    textDecoration: "none",
+    transition: "all .3s ease-in"
   },
   subtitle: {
     fontSize: "1.313rem",
