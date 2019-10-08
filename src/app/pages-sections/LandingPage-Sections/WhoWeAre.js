@@ -23,10 +23,9 @@ export default function WhoWeAre() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Who we are</h2>
           <h5 className={classes.description}>
-            A team of excited software developers and hardware developers, who
-            like to develop different projects starting from webs, applications,
-            big data and the most special project like electic bikes. This is
-            the paragraph where you can write more details about who you are.
+            A team of excited people who are eager to solve your problems. We are software developers and hardware developers, 
+            who like to develop different projects starting from webs, applications,
+            big data and the most special project like electic bikes.
           </h5>
         </GridItem>
       </GridContainer>
@@ -58,7 +57,11 @@ export default function WhoWeAre() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="E-Bikes"
-              description="We build electric bikes. here will be more content about bikes.."
+              description="A special part of our work is Electric Bikes. We are happy to work
+              on the newwest technology involved with bicycles. Its architecture contains an electric motor, 
+              but besides this they all have the ability to be pedalled by the rider. Therefore, these E-Bikes
+              are not involved in the same group with electric motorcycles. The best thing that we can benefit from E-Bikes
+              as a society are health benefits, mostly about physical activity."
               icon={Build}
               iconColor="danger"
               vertical
