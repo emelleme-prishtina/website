@@ -25,7 +25,7 @@ export default function WhoWeAre() {
           <h5 className={classes.description}>
             A team of excited people who are eager to solve your problems. We are software developers and hardware developers, 
             who like to develop different projects starting from webs, applications,
-            big data and the most special project like electic bikes.
+            big data and the most special project like electric bikes.
           </h5>
         </GridItem>
       </GridContainer>

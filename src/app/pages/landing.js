@@ -54,10 +54,9 @@ export default function LandingPage(props) {
               {/* <h1 className={classes.title}>Emelleme</h1> */}
               <br /> <br />
               <h4 justify="center">
-                We are an enthusiastic team of software developers, who are
-                excited to work on different sections of nowadays technology
-                like: web-developemnet, AI, Machine Learning and also a very
-                special part of our company like electric bikes.
+               Solving problems, generating ideas and realizing them. A team of creative and enthusastic people who share ideas,
+               create models and develop projects in the best way possible. Through the newest technologies, we are dedicated to 
+               give you the very best products with high quality. 
               </h4>
               <br />
               <Button
