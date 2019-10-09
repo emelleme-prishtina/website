@@ -46,10 +46,10 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Lloyd is passionate about improving the world around him. 
+                  He has acquired a paticular set of skills and experiences with computer hardware and software 
+                  development over the span of two decades, and enjoys finding solutions to challenging problems.
+                   In his free time he likes to swim, snowboard, and attempt to learn (non) computer languages <a href="#pablo"></a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -83,16 +83,15 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Team Member 2
+                Albiona Hoti
                 <br />
-                <small className={classes.smallTitle}>Job Title Here</small>
+                <small className={classes.smallTitle}>Software developer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  some <a href="#pablo"></a> 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -119,16 +118,15 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Team Member 3
+                Blerina Zejnullahu
                 <br />
-                <small className={classes.smallTitle}>Job Title Here</small>
+                <small className={classes.smallTitle}>Office Manager</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  some <a href="#pablo"></a> 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -162,7 +160,226 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Team Member 4
+                Alma Fazliu 
+                <br />
+                <small className={classes.smallTitle}>Data Scientist</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                 Alma is a Data Scientist and Software Developer focused in developing smart applications 
+                 using Artificial Intelligence. She is interested in people behavior/psychology and the reason 
+                 they act the way they do. She enjoys reading sci-fi books, playing Sudoko and besides Albanian she speaks English, 
+                 Spanish, some German and a little Turkish. <a href="#pablo"></a> 
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Nora Gjergji
+                <br />
+                <small className={classes.smallTitle}>Data Scientist</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Nora is very enthusiastic about Maths, Data Science and Software Development. 
+                  Working as a lecturer has helped sharpen her rhetorical and analytical skills. 
+                  She likes socializing, working out and taking long walks with her dog. 
+                  She hates cilantro. <a href="#pablo"></a> 
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Shejza Berisha
+                <br />
+                <small className={classes.smallTitle}>Software Developer</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  Shejza is a front-end and back-end developer with skills in different 
+                  programming languages. She is very passionate and loves developing new apps, projects and ideas. 
+                  She likes watching sci-fi movies, commedies and likes to read psychological books. Shejza likes 
+                  to travel a lot and gain new experiences out in the world. <a href="#pablo"></a> 
+                   </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+           <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Erza Kastrati
+                <br />
+                <small className={classes.smallTitle}>Software Developer</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                   Erza is a Software Developer who is very enthusiastic in Engineering and Computer Science.
+                   She also likes data analytics and research in solving problems of different fields. She is an
+                   outdoor person who likes hiking, camping, tennis and travelling. One of her favorite things to do is reading
+                   science books. <a href="#pablo"></a> 
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+           <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Alina Fazliu
+                <br />
+                <small className={classes.smallTitle}>Job Title Here</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                 Alina is one of our young interns, who just began her internship as a Software Developer.
+                  Currently studying Computer Engineering, she hopes to make it through University in one piece.
+                  On her free time she likes reading and expressing her strong opinions on social issues and popular TV shows. <a href="#pablo"></a> 
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+           <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team3} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Bardha Jakupi
                 <br />
                 <small className={classes.smallTitle}>Job Title Here</small>
               </h4>
@@ -200,13 +417,13 @@ export default function TeamSection() {
             </Card>
           </GridItem>
 
-          <GridItem xs={12} sm={12} md={4}>
+           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Team Member 5
+                Trim 
                 <br />
                 <small className={classes.smallTitle}>Job Title Here</small>
               </h4>
@@ -244,13 +461,13 @@ export default function TeamSection() {
             </Card>
           </GridItem>
 
-          <GridItem xs={12} sm={12} md={4}>
+           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Team Member 6
+                Vjosa Fusha
                 <br />
                 <small className={classes.smallTitle}>Job Title Here</small>
               </h4>
@@ -287,6 +504,7 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
+
         </GridContainer>
       </div>
     </div>
