@@ -23,9 +23,9 @@ export default function WhoWeAre() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Who we are</h2>
           <h5 className={classes.description}>
-            A team of excited people who are eager to solve your problems. We are software developers and hardware developers, 
-            who like to develop different projects starting from webs, applications,
-            big data and the most special project like electric bikes.
+            A team of excited people who are eager to solve your problems. We are software developers, hardware developers, and
+           data scientists, who like to develop different projects starting from webs, applications,
+            big data. The most special project that our team like to work on are electric bikes.
           </h5>
         </GridItem>
       </GridContainer>
