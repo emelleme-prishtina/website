@@ -466,14 +466,14 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Vjosa Fusha
                 <br />
-                <small className={classes.smallTitle}>Job Title Here</small>
+                <small className={classes.smallTitle}>Software Developer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                 Vjosa is passionate about planning initiatives and courses that increase the investment 
+                 and development of girls and women. It is now almost two years since she started her career 
+                 in the IT industry (mainly Software Development). In her free time, Vjosa enjoys volunteering, traveling, 
+                 and playing guitar<a href="#pablo"></a> 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
