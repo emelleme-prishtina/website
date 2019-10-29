@@ -56,9 +56,9 @@ export default function WhoWeAre() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="E-Bikes"
-              description="A special part of our work is Electric Bikes. We are happy to work
-              on the newwest technology involved with bicycles. Its architecture contains an electric motor, 
+              title="Electronics and Hardware"
+              description="A special part of our work is Electronics and Hardware. We are happy to work
+              on the newest technology involved with bicycles, rockets, and embedded systems. For example, e-bikes contain an electric motor, 
               but besides this they all have the ability to be pedalled by the rider. Therefore, these E-Bikes
               are not involved in the same group with electric motorcycles. The best thing that we can benefit from E-Bikes
               as a society are health benefits, mostly about physical activity."

@@ -36,13 +36,10 @@ export default function TeamSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
-              </GridItem>
               <h4 className={classes.cardTitle}>
                 Lloyd Emelle
                 <br />
-                <small className={classes.smallTitle}>CEO</small>
+                <small className={classes.smallTitle}>Engineer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -79,9 +76,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Albiona Hoti
                 <br />
@@ -114,9 +109,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Blerina Zejnullahu
                 <br />
@@ -156,9 +149,7 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Alma Fazliu 
                 <br />
@@ -200,9 +191,7 @@ export default function TeamSection() {
 
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Nora Gjergji
                 <br />
@@ -244,9 +233,7 @@ export default function TeamSection() {
 
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Shejza Berisha
                 <br />
@@ -288,9 +275,7 @@ export default function TeamSection() {
 
            <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Erza Kastrati
                 <br />
@@ -332,9 +317,7 @@ export default function TeamSection() {
 
            <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Alina Fazliu
                 <br />
@@ -375,9 +358,7 @@ export default function TeamSection() {
 
            <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Bardha Jakupi
                 <br />
@@ -416,9 +397,7 @@ export default function TeamSection() {
 
            <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Trim 
                 <br />
@@ -460,9 +439,7 @@ export default function TeamSection() {
 
            <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
+              
               <h4 className={classes.cardTitle}>
                 Vjosa Fusha
                 <br />

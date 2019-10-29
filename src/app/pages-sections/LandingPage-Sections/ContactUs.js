@@ -38,7 +38,8 @@ export default function ContactUs() {
                   <h4 className={classes.descriptionLeft}>
                     <b> Find Us at the Office</b>
                     <br />
-                    Kosovo, Pristine 10000
+                    EmellemE Europe - Kosovo, Pristine 10000
+                    EmellemE USA - King of Prussia, PA 19406
                   </h4>
                 </GridItem>
               </GridContainer>
@@ -55,11 +56,9 @@ export default function ContactUs() {
                 </GridItem>
                 <GridItem md={11}>
                   <h4 className={classes.description}>
-                    <b> Give us a ring Emelle</b>
+                    <b> Contact us</b>
                     <br />
-                    +40 762 321 762
-                    <br />
-                    Mon - Fri, 8:00-22:00
+                    <a href="mailto:hello@emelle.me">hello@emelle.me</a>
                   </h4>
                 </GridItem>
               </GridContainer>
