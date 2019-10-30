@@ -46,11 +46,11 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image={require("assets/img/bgof2.jpg")}>
+      <Parallax filter responsive image={require("assets/img/landing-bg-2.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={8}>
-              <img src={require("assets/img/emelle-logo.png")} width="700" />
+              <img src={require("assets/img/emelle-white.png")} width="100%" />
               {/* <h1 className={classes.title}>Emelleme</h1> */}
               <br /> <br />
               <h4 justify="center">
@@ -59,7 +59,7 @@ export default function LandingPage(props) {
                give you the very best products with high quality. 
               </h4>
               <br />
-              <Button
+              {/* <Button
                 color="danger"
                 size="lg"
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
@@ -69,7 +69,7 @@ export default function LandingPage(props) {
               >
                 <i className="fas fa-play" />
                 Watch video
-              </Button>
+              </Button> */}
             </GridItem>
           </GridContainer>
         </div>

@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "src/app/out",
-    "predeploy": "cd src/app;npm run-script export",
+    "predeploy": "",
     "rewrites": [
       {
         "source": "**/api/**",

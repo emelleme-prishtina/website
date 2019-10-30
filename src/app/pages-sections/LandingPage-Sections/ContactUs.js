@@ -38,7 +38,7 @@ export default function ContactUs() {
                   <h4 className={classes.descriptionLeft}>
                     <b> Find Us at the Office</b>
                     <br />
-                    EmellemE Europe - Kosovo, Pristine 10000
+                    EmellemE Europe - Kosovo, Pristine<br></br>
                     EmellemE USA - King of Prussia, PA 19406
                   </h4>
                 </GridItem>

@@ -84,9 +84,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo"></a> 
+                  Description coming soon! 🤓
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -117,9 +115,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo"></a> 
+                Description coming soon! 🤓 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -401,7 +397,7 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Trim 
                 <br />
-                <small className={classes.smallTitle}>Job Title Here</small>
+                <small className={classes.smallTitle}>Mechatronics Intern</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
